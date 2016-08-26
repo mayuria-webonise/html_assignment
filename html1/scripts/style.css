@@ -1,0 +1,97 @@
+body
+{
+    width: 1170px;
+    margin: 0 auto;
+}
+.nav{
+    background-color: dimgray;
+    
+}
+.logo{
+    height: 35;
+    width: 140;
+    background-color: coral;
+    margin: 7.5px auto 7.5px 80px;
+    float:left;
+}
+.nav ul{
+    float:right;
+    margin-right: 300px;
+}
+.nav li{
+   
+    float:left;
+    margin: 0 10px 0 10px;
+}
+.nav a{
+     color: #aaaaaa;
+     font-size: 18px;
+    
+}
+.clear{
+    clear: both;
+}
+.middle{
+    background-color: #71c4ea;
+    height: 485px;
+    width: auto;
+}
+.works h1{
+    margin: 64px auto 0 auto;
+    text-align: center;
+    color: #444444;
+    font-size: 36px;
+}
+
+.works ul{
+    float: left;
+    margin: 70px auto 0 100px;
+    align-self: center;
+    position: relative;
+    
+}
+.works li{
+    float: left;
+    margin: 0 37.5px 0 37.5px;
+    width:140px;
+}
+.circle{
+    height: 140px;
+    width: 140px;
+    background-color: #efefef;
+    border-radius: 70px;
+    
+}
+.text{
+    text-align: center;
+    font-size: 18px;
+    color: #888888;
+    margin: 10px auto;
+    
+}
+.text:hover{
+    color: #444444;
+}
+.bottom{
+   
+    width: 1170px;
+    background-color: #ECECEC;
+    
+}
+.bottom ul{
+    margin-left: 280px;
+    float: left;
+    
+}
+.bottom li{
+    float:right;
+    margin-left: 50px;
+}
+.bottom a{
+    text-decoration: none;
+    line-height: 18px;
+    color: #FF8000;
+}
+.bottom a:hover{
+    color: #444444;
+}
