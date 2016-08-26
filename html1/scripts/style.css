@@ -25,7 +25,7 @@ body
 }
 .nav a{
      color: #aaaaaa;
-     font-size: 18px;
+     line-height: 20px;
     
 }
 .clear{
@@ -40,7 +40,7 @@ body
     margin: 64px auto 0 auto;
     text-align: center;
     color: #444444;
-    font-size: 36px;
+    line-height: 38px;
 }
 
 .works ul{
@@ -64,7 +64,7 @@ body
 }
 .text{
     text-align: center;
-    font-size: 18px;
+    line-height: 20px;
     color: #888888;
     margin: 10px auto;
     
@@ -76,6 +76,7 @@ body
    
     width: 1170px;
     background-color: #ECECEC;
+    margin-top: 110px;
     
 }
 .bottom ul{
@@ -86,6 +87,7 @@ body
 .bottom li{
     float:right;
     margin-left: 50px;
+    
 }
 .bottom a{
     text-decoration: none;
