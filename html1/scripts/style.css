@@ -1,31 +1,50 @@
-body
+html, body {
+ margin: 0px;
+ padding: 0px;
+ border: 0px;
+    
+ }
+body{
+    width:100%;
+}
+
+p, th, td, li, dd, dt, ul, ol, blockquote, q, acronym, abbr, a, input, select, textarea {
+ margin: 0;
+ padding: 0;
+ font: normal normal normal 1em/1.25 Arial, Helvetica, sans-serif;
+ }
+.container
 {
     width: 1170px;
     margin: 0 auto;
 }
 .nav{
     background-color: dimgray;
-    
+    text-align: center;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
 }
 .logo{
     height: 35;
     width: 140;
     background-color: coral;
-    margin: 7.5px auto 7.5px 80px;
     float:left;
 }
 .nav ul{
-    float:right;
-    margin-right: 300px;
+    text-align: center;
+    list-style-type: none;
+    
 }
 .nav li{
-   
-    float:left;
     margin: 0 10px 0 10px;
+   
+    display: inline-block;
+    
 }
 .nav a{
      color: #aaaaaa;
-     line-height: 20px;
+     font-size: 18px;
+     line-height: 35px;
     
 }
 .clear{
@@ -36,24 +55,30 @@ body
     height: 485px;
     width: auto;
 }
-.works h1{
-    margin: 64px auto 0 auto;
+.works p{
+    margin: 64px auto 70px auto;
     text-align: center;
     color: #444444;
+    font-size: 36px;
     line-height: 38px;
+    font-weight: bold;
 }
 
 .works ul{
-    float: left;
-    margin: 70px auto 0 100px;
-    align-self: center;
-    position: relative;
+    margin: 0 auto;
+    width: 860px;
+    padding: 0;
+    list-style-type: none;
     
 }
 .works li{
     float: left;
-    margin: 0 37.5px 0 37.5px;
+    margin-left: 75px;
     width:140px;
+    
+}
+.works ul li.clear{
+    float: none;
 }
 .circle{
     height: 140px;
@@ -63,6 +88,7 @@ body
     
 }
 .text{
+    font-size: 18px;
     text-align: center;
     line-height: 20px;
     color: #888888;
@@ -72,26 +98,33 @@ body
 .text:hover{
     color: #444444;
 }
+.works li:first-child{
+    margin-left: 37.5px;
+}
+
 .bottom{
-   
-    width: 1170px;
+
     background-color: #ECECEC;
     margin-top: 110px;
     
 }
 .bottom ul{
-    margin-left: 280px;
-    float: left;
+    text-align: center;
+    list-style-type: none;
+
     
 }
 .bottom li{
-    float:right;
-    margin-left: 50px;
+    
+    display: inline-block;
+    margin-left: 10px;
+    
     
 }
 .bottom a{
     text-decoration: none;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 32px;
     color: #FF8000;
 }
 .bottom a:hover{
