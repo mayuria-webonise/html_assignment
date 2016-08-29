@@ -45,6 +45,7 @@ p, th, td, li, dd, dt, ul, ol, blockquote, q, acronym, abbr, a, input, select, t
      color: #aaaaaa;
      font-size: 18px;
      line-height: 35px;
+    text-decoration: none;
     
 }
 .clear{
@@ -94,6 +95,7 @@ p, th, td, li, dd, dt, ul, ol, blockquote, q, acronym, abbr, a, input, select, t
     color: #888888;
     margin: 10px auto;
     
+    
 }
 .text:hover{
     color: #444444;
@@ -105,7 +107,7 @@ p, th, td, li, dd, dt, ul, ol, blockquote, q, acronym, abbr, a, input, select, t
 .bottom{
 
     background-color: #ECECEC;
-    margin-top: 110px;
+    margin-top: 109px;
     
 }
 .bottom ul{
