@@ -28,17 +28,19 @@ p, th, td, li, dd, dt, ul, ol, blockquote, q, acronym, abbr, a, input, select, t
     height: 35;
     width: 140;
     background-color: coral;
-    float:left;
+    float: left;
 }
 .nav ul{
-    text-align: center;
+    float: left;
+    margin-left: 40px;
     list-style-type: none;
     
 }
 .nav li{
+    float: left;
     margin: 0 10px 0 10px;
    
-    display: inline-block;
+    
     
 }
 .nav a{
@@ -55,9 +57,10 @@ p, th, td, li, dd, dt, ul, ol, blockquote, q, acronym, abbr, a, input, select, t
     background-color: #71c4ea;
     height: 485px;
     width: auto;
+    margin-bottom: 63px;
 }
-.works p{
-    margin: 64px auto 70px auto;
+.heading{
+    margin: 0px auto 70px auto;
     text-align: center;
     color: #444444;
     font-size: 36px;
@@ -67,41 +70,47 @@ p, th, td, li, dd, dt, ul, ol, blockquote, q, acronym, abbr, a, input, select, t
 
 .works ul{
     margin: 0 auto;
-    width: 860px;
+    width: 815px;
     padding: 0;
     list-style-type: none;
     
 }
 .works li{
     float: left;
-    margin-left: 75px;
-    width:140px;
+    margin-left: 45px;
+    
     
 }
 .works ul li.clear{
     float: none;
+    margin: 0;
+    width: 0;
 }
 .circle{
     height: 140px;
     width: 140px;
     background-color: #efefef;
     border-radius: 70px;
+    margin: 0 auto;
     
 }
 .text{
+    
+    margin: 10px auto;
+    width: 170px;
+    
+}
+.text p{
     font-size: 18px;
     text-align: center;
     line-height: 20px;
     color: #888888;
-    margin: 10px auto;
-    
-    
 }
-.text:hover{
+.text p:hover{
     color: #444444;
 }
 .works li:first-child{
-    margin-left: 37.5px;
+    margin-left: 0px;
 }
 
 .bottom{
@@ -113,7 +122,6 @@ p, th, td, li, dd, dt, ul, ol, blockquote, q, acronym, abbr, a, input, select, t
 .bottom ul{
     text-align: center;
     list-style-type: none;
-
     
 }
 .bottom li{
@@ -126,7 +134,7 @@ p, th, td, li, dd, dt, ul, ol, blockquote, q, acronym, abbr, a, input, select, t
 .bottom a{
     text-decoration: none;
     font-size: 16px;
-    line-height: 32px;
+    line-height: 50px;
     color: #FF8000;
 }
 .bottom a:hover{
