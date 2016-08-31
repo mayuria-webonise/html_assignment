@@ -1,0 +1,158 @@
+
+.logo .navbar-header{
+    float:none;
+    height: 80px;
+    
+}
+.navbar-brand{
+    height: 80px;
+}
+.menu{
+     background-color: #3355aa;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    }
+
+.navbar-default .navbar-nav>li>a{
+    color: #ffffff;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 15px;
+    font-family: Georgia;
+    padding-bottom: 12.5px;
+    padding-top: 12.5px;
+    
+}
+.menu .form-group{
+    padding-top: 3px;
+}
+.menu .navbar-form{
+    
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+.menu .btn{
+
+    background-color: skyblue;
+}
+.middle{
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.middle ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.middle h4
+{
+    font-size: 16px;
+    color: #3355aa;
+    border-bottom: 3px solid;
+    
+    border-bottom-color: yellow;
+    font-weight: bold;
+    
+}
+.text{
+    font-size: 13px;
+}
+.italic{
+    font-size: 13px;
+    font-style: italic; 
+}
+.author{
+    font-size: 10px;
+    font-style: italic;
+}
+.middle .container .row a{
+    font-style: italic;
+}
+.image_content{
+    box-shadow: 2px 2px 2px 2px grey;
+    padding: 10px;
+}
+.image_content p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-style: italic;
+}
+.images{
+    background-color: lightgrey;
+}
+.images .heading
+{
+    font-size: 28px;
+    line-height: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+    text-align: center;
+    font-family: Georgia;
+    font-weight: bold;
+}
+.wrapper{
+     background-color: white;
+    box-shadow: 2px 2px 2px 2px grey;
+    padding: 5px;
+    margin-bottom: 75px;
+    border-radius: 5px;
+    text-align: center;
+}
+.images .container .row .col-sm-3 .wrapper .uppertext{
+    margin: 0 auto;
+    width:150px;
+}
+.uppertext h3{
+    font-size: 16px;
+    color:#3355aa;
+    text-align: center;
+    line-height: 20px;
+}
+.images .row .col-sm-3 .middle_image{
+    height: 250px;
+    background-color: darkgrey;
+   
+}
+.footer{
+    background-color: #333333;
+}
+.links .navbar-left>li>a{
+    
+    font-size: 14px;    
+    line-height: 16px;
+}
+.links{
+    margin-bottom: 0px;
+    border-bottom-color: #3d3d3d;
+}
+.links .nav>li>a:focus, .links .nav>li>a:hover
+ {
+    background-color: transparent;
+    color: white;
+     
+}
+.links .navbar-right>li>a{
+    
+    font-size: 11px;
+    line-height: 13px;
+    
+}
+.links .navbar-nav>li>a
+{
+    padding: 15px 15px 15px 0;
+    color:lightgrey;
+    font-family: Georgia;
+    
+}
+.tradeMark{
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+.tradeMark p{
+    font-size: 11px;
+    color:darkgrey;
+    
+}
