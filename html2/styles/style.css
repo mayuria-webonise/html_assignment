@@ -1,11 +1,12 @@
 
 .logo .navbar-header{
     float:none;
-    height: 80px;
+   padding-bottom: 3px;
+    padding-top: 3px;
     
 }
 .navbar-brand{
-    height: 80px;
+    height: 74px;
 }
 .menu{
      background-color: #3355aa;
