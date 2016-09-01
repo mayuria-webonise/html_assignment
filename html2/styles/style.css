@@ -13,14 +13,25 @@
     margin-top: 0px;
     }
 
-.navbar-default .navbar-nav>li>a{
+.menu  .navbar-nav>li>a{
     color: #ffffff;
     font-style: italic;
     font-size: 13px;
-    line-height: 15px;
+    line-height: 34px;
     font-family: Georgia;
-    padding-bottom: 12.5px;
-    padding-top: 12.5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    border-left: 1px solid;
+    border-left-color: darkblue;
+    
+}
+.menu .navbar-nav>li{
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+.menu .navbar-nav>li:last-child>a{
+    border-right: 1px solid;
+    border-right-color: darkblue;
     
 }
 .menu .form-group{
@@ -35,7 +46,7 @@
 
 .menu .btn{
 
-    background-color: skyblue;
+    background-color: rgb(134, 147, 237);
 }
 .middle{
     margin-top: 35px;
@@ -46,22 +57,43 @@
     list-style-type: none;
     padding-left: 0px;
 }
+.middle .col-sm-3 .ul_second>li{
+     margin-bottom: 20px;
+    margin-top: 10px;
+    border-bottom: 1px solid;
+    border-bottom-color: rgb(200, 186, 186);
+    
+}
+.middle .col-sm-3 .ul_first>li:last-child{
+    margin-top: 50px;
+}
+.middle .col-sm-3 .ul_second>li:first-child, .middle .col-sm-3 .ul_second>li:last-child{
+    border-bottom: 0px;
+}
+border-bottom-color: rgb(218, 203, 203);
+}
+.middle .col-sm-3 .ul_first>li{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
 .middle h4
 {
     font-size: 16px;
     color: #3355aa;
     border-bottom: 3px solid;
-    
-    border-bottom-color: yellow;
+    padding-bottom: 10px;
+    border-bottom-color: rgb(237, 177, 20);
     font-weight: bold;
     
 }
+
 .text{
     font-size: 13px;
 }
 .italic{
     font-size: 13px;
     font-style: italic; 
+    
 }
 .author{
     font-size: 10px;
@@ -78,9 +110,12 @@
     margin-top: 10px;
     font-size: 14px;
     font-style: italic;
+    font-family: Georgia;
+    text-align: center;
 }
 .images{
     background-color: lightgrey;
+    margin-top: 45px;
 }
 .images .heading
 {
@@ -88,7 +123,6 @@
     line-height: 30px;
     margin-top: 25px;
     margin-bottom: 25px;
-    
     text-align: center;
     font-family: Georgia;
     font-weight: bold;
@@ -101,7 +135,7 @@
     border-radius: 5px;
     text-align: center;
 }
-.images .container .row .col-sm-3 .wrapper .uppertext{
+.images .col-sm-3 .wrapper .uppertext{
     margin: 0 auto;
     width:150px;
 }
@@ -111,7 +145,7 @@
     text-align: center;
     line-height: 20px;
 }
-.images .row .col-sm-3 .middle_image{
+.images .col-sm-3 .wrapper .middle_image{
     height: 250px;
     background-color: darkgrey;
    
@@ -123,6 +157,8 @@
     
     font-size: 14px;    
     line-height: 16px;
+    border-left: 1px;
+    border-left-color: darkblue;
 }
 .links{
     margin-bottom: 0px;
