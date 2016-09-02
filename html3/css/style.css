@@ -1,0 +1,238 @@
+body{
+    background-color: #fcfcfc;
+}
+.header{
+    background-color: aliceblue;
+    height: auto;
+    border-bottom: 1px solid;
+    
+}
+.header .navbar-header  .mainMenu{
+    
+    
+    text-align: center;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header .navbar-header .navbar-brand>li{
+    border-right: 1px solid ;
+    
+}
+.header .navbar-header  .Netlogo{
+    
+    padding: 10px 10px 9px 10px;
+    border-left: 0;
+}
+.header .navbar-header{
+    
+}
+.navbar-brand{
+    height: auto;
+    padding: 0px;
+}
+
+.header .navbar-nav>li>a{
+    padding: 0px;
+}
+.leftNav>li
+{
+    padding: 16px 10px 17px 10px;
+    border-left: 1px solid;
+    
+}
+.leftNav>li{
+    font-size: 14px;
+    color: #222;
+    line-height: 16px;
+}
+.leftNav .navbar-nav .contactDetails
+{
+    text-align: center;
+    padding: 15px;
+}
+.leftNav .navbar-nav>li{
+    line-height: 0px;
+}
+.leftNav .user{
+    padding: 16px 10px 16px 10px;
+}
+.leftNav>li:last-child{
+    border-left: 0px;
+    padding-left: 5px;
+  
+}
+.contactUser{
+    height: 53px;
+    padding: 0px;
+}
+.marginClass{
+    
+    margin-bottom: 30px;
+   
+}
+.header .navbar-header .navbar-brand>li:last-child{
+    border-right: 0px;
+}
+.customerName{
+    height: 54px;
+}
+.customerName .badge{
+    
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 120px;
+    border-left: 0px;
+    border-right: 0px;
+    background-color: #1166ee;
+    border-radius: 10px;
+}
+.contactName
+{
+    
+    font-size: 14px;
+    color: #222;
+    line-height: 16px;
+    margin: 0;
+  
+}
+.contact{
+    font-size: 11px;
+    color: #666;
+    line-height: 13px;
+    margin: 0;
+    
+    
+}
+.addButton{
+    background-color: white;
+    color: #1166ee;
+    border: 1px solid;
+    border-color: #1166ee;
+    margin-left: 40px;
+    border-radius: 0px;
+    
+}
+.customers{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    background-color: #fcfcfc;
+    
+}
+.websites{
+background-color: #fcfcfc;
+}
+.wrapper{
+    height: 369px;
+    border: 1px solid;
+    border-color: gray;
+    background-color: white;
+}
+.wrapper .image{
+    height: 90px;
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+    padding-top:15px;
+    
+}
+.content{
+    border-top: 1px solid;
+    border-color: grey;
+}
+.content .row{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.content .row .col-sm-6>p{
+    margin: 0;
+}
+.content .row .col-sm-6 .heading{
+    font-size: 18px;
+    color: #333333;
+}
+.content .row .col-sm-6 .lastUpadted{
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+.ratingIcon{
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 8px;
+}
+.websites p{
+    margin: 0;
+}
+.row2{
+    margin-top: 15px;
+}
+.block{
+    padding-top: 4px;
+}
+.tickets{
+    color: #1166ee;
+}
+.ticketCount{
+    font-size: 48px;
+    color: #1166ee;
+}
+.severity1{
+    font-size: 12px;
+    color: red;
+}
+.severityNo{
+    font-size: 24px;
+}
+.severity2{
+    font-size: 12px;
+    color: black;
+}
+.assetCount{
+    font-size: 30px;
+    color: #1166ee;
+}
+.assets{
+    font-size: 16px;
+}
+.viewDetails{
+    font-size: 14px;
+    color:#1166ee;
+    text-decoration: underline;
+}
+.links, .footer .container .navbar{
+    text-align: center;
+     min-height: 30px;
+    margin-bottom: 0;
+}
+.footer .container .navbar-nav, .footer .container .nav{
+    float:none;
+   
+}
+
+.footer{
+    border-top: 1px solid;
+    border-top-color: aliceblue;
+    margin-top: 45px;
+   
+}
+.footer .container .nav li {
+	display:inline-block;
+	float:none;
+   
+   
+    color: #666666;
+	vertical-align:middle;
+    padding: 0px;
+    
+}
+.footer .navbar-nav>li>a{
+    padding: 0 5px ;
+     font-size: 12px;
+     line-height: 14px;
+    border-left: 1px solid;
+}
+.footer .navbar-nav>li:first-child>a{
+    border-left: 0;
+}
